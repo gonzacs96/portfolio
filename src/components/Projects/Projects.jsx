@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
+import "./Projects.css";
 
 export default function Projects() {
   return (
@@ -7,7 +8,7 @@ export default function Projects() {
       <div className="header">
         <NavBar />
       </div>
-      <div className="projects">Projects</div>
+      <div className="projects">In process....</div>
     </>
   );
 }

@@ -9,6 +9,7 @@ export default function Resume() {
       <div className="header">
         <NavBar />
       </div>
+      <div className="resume-container">
       <div className="resume">
         <div className="resume-body">
           <h3>Hi, my name is Gonzalo, and I'm a Full Stack Developer.</h3>
@@ -25,6 +26,12 @@ export default function Resume() {
         </div>
         <div className="resume-image">
           <img src={foto_cv} alt="not found" />
+        </div>
+      </div>
+      <div className="resume-download">
+          <a className="link-cv" href="https://drive.google.com/file/d/1pPN8hjRzOZy1blGGqqAOtqxQFkTypdmZ/view?usp=sharing">
+            Download my CV
+          </a>
         </div>
       </div>
     </>
