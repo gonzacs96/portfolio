@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+  .contact {
+    padding-top: 100px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:medium;
+  }
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+.contact-gmail {
+  padding: 20px;
+}
+.contact-linkedin {
+  padding: 20px;
+}
+.contact-github {
+  padding: 20px;
+}

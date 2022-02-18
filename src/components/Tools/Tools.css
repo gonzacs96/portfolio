@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+  .tools {
+    max-width: 700px !important;
+  }
+
+  svg {
+    height: 150px !important;
+    width: 150px !important;
+  }
+}
+
+.tools {
+  display: grid;
+  justify-items: center;
+  padding: 60px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+}

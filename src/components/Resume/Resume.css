@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+  .resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume-body {
+    width: 30%;
+  }
+}
+
+.resume-body {
+  text-align: center;
+  padding: 40px;
+  font-size: x-large;
+}
+
+.resume-image img {
+  border-radius: 50%;
+}
+
+.resume{
+  padding: 20px;
+}
