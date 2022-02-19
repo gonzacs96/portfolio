@@ -1,17 +1,16 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
 import "./Contact.css"
 
 export default function Contact() {
   return (
     <>
-      <div className="header">
-        <NavBar />
-      </div>
-      <div className="contact">
-        <div className="contact-gmail">
+      <div className="contact" id="contact">
+        <h2 className="contact-title">Contact</h2>
+        <div className="contact-info-body">
+        <div className="contact-item contact-gmail">
           <div className="gmail-image">
             <svg
+              className="svg-contact"
               width="256px"
               height="256px"
               viewBox="0 -31.5 256 256"
@@ -43,11 +42,12 @@ export default function Contact() {
               </g>
             </svg>
           </div>
-          <div className="gmail-text">gonzalosalinasss.96@gmail.com</div>
+          <div className="contact-item-text gmail-text">gonzalosalinasss.96@gmail.com</div>
         </div>
-        <div className="contact-linkedin">
+        <div className="contact-item contact-linkedin">
           <div className="linkedin-image">
             <svg
+              className="svg-contact"
               version="1.1"
               id="Layer_1"
               width="256px"
@@ -70,14 +70,15 @@ export default function Contact() {
             </svg>
           </div>
           <div className="likeding-text">
-            <a href="https://www.linkedin.com/in/gonzalo-salinas-aba0b9209/">
+            <a className="contact-item-text" href="https://www.linkedin.com/in/gonzalo-salinas-aba0b9209/">
               Go to my Linkedin
             </a>
           </div>
         </div>
-        <div className="contact-github">
+        <div className="contact-item contact-github">
           <div className="github-image">
             <svg
+              className="svg-contact"
               width="256px"
               height="256px"
               viewBox="0 0 32 32"
@@ -87,8 +88,9 @@ export default function Contact() {
             </svg>
           </div>
           <div className="github-text">
-            <a href="https://github.com/gonzacs96">Go to my GitHub</a>
+            <a className="contact-item-text" href="https://github.com/gonzacs96">Go to my GitHub</a>
           </div>
+        </div>
         </div>
       </div>
     </>
