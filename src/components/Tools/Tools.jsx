@@ -254,7 +254,7 @@ export default function Tools() {
                 ></path>
               </g>
             </svg>
-            <div>PostgreSQL</div>
+            <div>Postgre</div>
           </li>
           <li className="tools-tool">
             <svg
