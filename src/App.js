@@ -13,6 +13,7 @@ function App() {
       <Resume />
       <Tools />
       <Experience />
+      <Projects />
       <Contact />
       {/* 
       <Projects />
