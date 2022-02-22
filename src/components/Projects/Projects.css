@@ -64,6 +64,8 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
   }
 
   .project-card{

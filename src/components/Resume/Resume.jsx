@@ -1,5 +1,6 @@
 import React from "react";
 import foto_cv from "../../assets/foto_perfil_cv.jpg";
+import foto_cv_original from "../../assets/foto_cv_original.jpg"
 import "./Resume.css";
 
 export default function Resume() {
@@ -30,7 +31,7 @@ export default function Resume() {
           </button>
         </div>
         <div className="resume-image-section">
-          <img src={foto_cv} className="resume-image" alt="not found" />
+          <img src={foto_cv_original} className="resume-image" alt="not found" />
         </div>
       </div>
     </>

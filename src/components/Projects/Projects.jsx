@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="project-card">
           <h3 className="project-card-title">Recipes APP Henry</h3>
           <iframe
-            src="https://www.youtube.com/embed/CJGRvmG6niQ"
+            src="https://www.youtube.com/embed/Vc9zeSUQtYk"
             title="Review recipes app"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
