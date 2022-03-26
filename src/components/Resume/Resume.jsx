@@ -1,13 +1,13 @@
 import React from "react";
-import foto_cv from "../../assets/foto_perfil_cv.jpg";
-import foto_cv_original from "../../assets/foto_cv_original.jpg"
+import foto_cv_original from "../../assets/foto_cv_original.jpg";
 import "./Resume.css";
 
 export default function Resume() {
-
-  const downloadCV=(e)=>{
-   window.open("https://drive.google.com/file/d/1pPN8hjRzOZy1blGGqqAOtqxQFkTypdmZ/view?usp=sharing")
-  }
+  const downloadCV = (e) => {
+    window.open(
+      "https://drive.google.com/file/d/1ehUMwPKuNzAMx9rTAhDolSIH_UrivwTZ/view?usp=sharing"
+    );
+  };
 
   return (
     <>
@@ -23,15 +23,16 @@ export default function Resume() {
             responsible, committed person. I learn quickly, and I adapt quickly,
             I like challenges, and improve myself day by day in all my profiles
           </p>
-          <button
-            className="resume-download-button"
-            onClick={downloadCV}
-          >
+          <button className="resume-download-button" onClick={downloadCV}>
             Download my CV
           </button>
         </div>
         <div className="resume-image-section">
-          <img src={foto_cv_original} className="resume-image" alt="not found" />
+          <img
+            src={foto_cv_original}
+            className="resume-image"
+            alt="not found"
+          />
         </div>
       </div>
     </>
